@@ -1,8 +1,8 @@
 # app.py
-# This is a test commit
-def add(a, b, c):
-    return a + b + c
+# This is a test commit for new checks 
+def add(a, b):
+    return a + b 
 
 def test_add():
-    assert add(1, 2, 4) == 7
-    assert add(1, -1, 0) == 0
+    assert add(1, 2) == 7
+    assert add(1, -1) == 0
